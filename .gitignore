@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# Secrets
+.env
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Package Manager Files
+Pipfile.lock
+poetry.lock
