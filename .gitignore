@@ -31,3 +31,6 @@ Thumbs.db
 # Package Manager Files
 Pipfile.lock
 poetry.lock
+
+
+e_commerce_bot.egg-info
