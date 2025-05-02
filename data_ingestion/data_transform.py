@@ -18,7 +18,17 @@ class data_converter:
                 "product_review":row['review']
             }
             product_list.append(object)
-        print(product_list)
+
+        docs = []
+        for entry in product_list:
+            metadata = {"product_name":entry["product_name"], 
+                        "product_rating":entry["product_rating"],
+                        "product_summary":entry["product_summary"],
+                        "product_review":entry["product_review"]  }
+            doc = Document(page_content=entry["product_review"], metadata = metadata)
+            docs.append(doc)
+        return docs
+        
 
 
 
