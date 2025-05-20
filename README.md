@@ -127,6 +127,7 @@ The chatbot retrieves relevant product reviews from AstraDB and generates a resp
 
 
 API Endpoint:
+
 Send a POST request to the /get endpoint to interact with the chatbot programmatically:curl -X POST -F "msg=What are the best headphones?" http://127.0.0.1:8001/get
 
 
