@@ -27,6 +27,7 @@ class ModelLoader:
         Load and return the embedding model.
         """
         print("Loading Embedding model")
+        print("GOOGLE API",os.getenv("GOOGLE_API_KEY"))
         model_name=self.config["embedding_model"]["model_name"]
         return GoogleGenerativeAIEmbeddings(model=model_name)
 
